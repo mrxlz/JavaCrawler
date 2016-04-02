@@ -1,4 +1,4 @@
-package com.cream.ice.picCrawler;
+package wz.picCrawler;
 
 import java.io.FileOutputStream;
 import java.io.IOException;

@@ -1,4 +1,4 @@
-package com.cream.ice.crawler;
+package wz.crawler;
 
 /**
  * 

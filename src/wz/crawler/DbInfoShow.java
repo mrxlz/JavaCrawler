@@ -1,11 +1,11 @@
-package com.cream.ice.crawler;
+package wz.crawler;
 
 import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
-import com.cream.ice.jdbc.JdbcUtils;
+import wz.jdbc.JdbcUtils;
 
 public class DbInfoShow {
 	public static void show(){

@@ -1,4 +1,4 @@
-package com.cream.ice.picCrawler;
+package wz.picCrawler;
 
 import java.io.IOException;
 import java.util.LinkedList;
@@ -8,7 +8,7 @@ import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
-import com.cream.ice.crawler.PageVisitor;
+import wz.crawler.PageVisitor;
 
 public class PicVisitor extends PageVisitor{
 	public static LinkedList<String> pageUrls = null;

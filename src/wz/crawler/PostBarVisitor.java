@@ -1,4 +1,4 @@
-package com.cream.ice.crawler;
+package wz.crawler;
 
 import java.util.HashMap;
 import java.util.LinkedList;

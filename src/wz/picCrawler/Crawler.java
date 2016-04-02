@@ -1,4 +1,4 @@
-package com.cream.ice.picCrawler;
+package wz.picCrawler;
 
 public class Crawler {
 

@@ -1,4 +1,4 @@
-package com.cream.ice.crawler;
+package wz.crawler;
 
 import java.sql.SQLException;
 import java.util.HashMap;

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<thread-number>100</thread-number>
+
+	<database>
+		<post-bar>
+			<read-size>20</read-size>
+			<page-size>5</page-size>
+			<total-size>152165</total-size>
+			<!-- 全部贴吧分类页面 -->
+			<category-page>http://tieba.baidu.com/f/index/forumclass</category-page>
+			<class-id>ba_href clearfix</class-id>
+		</post-bar>
+
+		<post>
+			<read-size>10</read-size>
+			
+			<!-- 每个贴吧抓取的页数 -->
+			<page-size>5</page-size>
+			
+			<!-- 每次抓取帖子的数量 -->
+			<post-size>50</post-size>
+			
+			<!-- 帖子div的class的id，可获取帖子标题，url-->
+			<class-id>j_th_tit </class-id>
+			<!-- 帖子回复数量的span元素的class的id -->
+			<reply-number-class-id>col2_left j_threadlist_li_left</reply-number-class-id>
+			<reply-number-class-id-old>threadlist_li_left j_threadlist_li_left</reply-number-class-id-old>
+			<author-class-id>frs-author-name j_user_card </author-class-id>
+			<author-class-id-old>j_user_card  </author-class-id-old>
+		</post>
+
+		<comment>
+			<read-size>50</read-size>
+			<page-size>10</page-size>
+			<!-- 每次抓取的回复存到数据库的数量  -->
+			<comment-size>50</comment-size>
+			<!-- 回复的div的class的id，可获取帖子标题，url-->
+			<class-id>d_post_content j_d_post_content </class-id>
+			
+			<class-id-old>d_post_content j_d_post_content  clearfix</class-id-old>
+			
+			<!-- 回复的评论数量的span元素的class的id -->
+			<reply-number-class-id>col2_left j_threadlist_li_left</reply-number-class-id>
+			
+			<!-- 回复的作者 -->
+			<author-class-id>d_name</author-class-id>
+		</comment>
+
+
+	</database>
+
+
+
+
+</config>
